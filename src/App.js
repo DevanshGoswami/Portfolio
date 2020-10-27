@@ -66,7 +66,7 @@ class App extends React.Component {
     this.setState({
       visible:false
     })
-    alert("Sent!");
+  
   }
 
 handleChange(e){
@@ -112,7 +112,7 @@ render(){
      </div>
 
      <div className="container"style={{marginTop:"58px"}}>
-       <div className="jumbotron mb-3 mx-2" style={{background:'none'}}>
+       <div data-aos="zoom-in-down" data-aos-duration="2000" className="jumbotron mb-3 mx-2" style={{background:'none'}}>
            <div className="row">
            <div className="col-12 col-lg-4 d-block d-lg-none">
                <div className="card rounded-circle">
@@ -146,7 +146,7 @@ render(){
        </div>
        <hr ></hr>
 
-       <section className="mt-5 mx-4" id="about" >
+       <section data-aos="fade-right" data-aos-duration="2000" className="mt-5 mx-4" id="about" >
             <div className=" mb-5">
                <h1 className="heading" style={{color:"#393a3b",fontSize:"50px"}}><span style={{color:"#16175e"}}>A</span>bout m<span style={{color:"#16175e"}}>e</span></h1>
             </div>
@@ -161,16 +161,16 @@ render(){
        
          <div className="col-12 col-lg-6">
             <ul>
-              <li>JavaScript ES6+ (React, JQuery, Node.js, Express).</li>
-              <li>Firebase, MySQL, MongoDB.</li>
-              <li>React-Native/Ionic.</li>
+              <li data-aos="fade-right" data-aos-duration="1000">JavaScript ES6+ (React, JQuery, Node.js, Express).</li>
+              <li data-aos="fade-right" data-aos-duration="2000">Firebase, MySQL, MongoDB.</li>
+              <li data-aos="fade-right" data-aos-duration="3000">React-Native/Ionic.</li>
             </ul>
          </div>
          <div className="col-12 col-lg-6">
             <ul>
-              <li>Python (Flask/Django).</li>
-              <li>SARIMAX Statistical Model for Time Series Analyisis.</li>
-              <li>Adobe Illustrator/Photoshop/XD.</li>
+              <li data-aos="fade-right" data-aos-duration="1000">Python (Flask/Django).</li>
+              <li data-aos="fade-right" data-aos-duration="2000">SARIMAX Statistical Model for Time Series Analyisis.</li>
+              <li data-aos="fade-right" data-aos-duration="3000">Adobe Illustrator/Photoshop/XD.</li>
             </ul>
            </div>
        </div>
@@ -181,7 +181,7 @@ render(){
                <h1 className="heading" style={{color:"#393a3b",fontSize:"50px"}}><span style={{color:"#16175e"}}>W</span>ork E<span style={{color:"#16175e"}}>x</span></h1>
             </div>
             <ul className="list-group list-group-flush">
-              <li className="list-group-item mb-3" style={{fontSize:"18px",fontWeight:"400"}}>
+              <li className="list-group-item mb-3" data-aos="fade-up-right" data-aos-duration="2000" style={{fontSize:"18px",fontWeight:"400"}}>
                
                <div className="row" >
              
@@ -202,7 +202,7 @@ render(){
                  </div>
                </div>
               </li>
-              <li className="list-group-item mb-3" style={{fontSize:"18px",fontWeight:"400"}}>
+              <li className="list-group-item mb-3" data-aos="fade-up-left" data-aos-duration="2000" style={{fontSize:"18px",fontWeight:"400"}}>
                
                <div className="row" >
              
@@ -221,7 +221,7 @@ render(){
                  </div>
                </div>
               </li>
-              <li className="list-group-item mb-3" style={{fontSize:"18px",fontWeight:"400"}}>
+              <li className="list-group-item mb-3" data-aos="fade-up-right" data-aos-duration="2000" style={{fontSize:"18px",fontWeight:"400"}}>
                
                <div className="row" >
              
@@ -240,7 +240,7 @@ render(){
                  </div>
                </div>
               </li>
-              <li className="list-group-item mb-3" style={{fontSize:"18px",fontWeight:"400"}}>
+              <li className="list-group-item mb-3" data-aos="fade-up-left" data-aos-duration="2000" style={{fontSize:"18px",fontWeight:"400"}}>
                 
                <div className="row" >
                  <div className="col-12 col-lg-9">
@@ -259,7 +259,7 @@ render(){
                  </div>
                </div>
               </li>
-              <li className="list-group-item mb-3" style={{fontSize:"18px",fontWeight:"400"}}>
+              <li className="list-group-item mb-3" data-aos="fade-up-right" data-aos-duration="2000" style={{fontSize:"18px",fontWeight:"400"}}>
                
                <div className="row" >
                  <div className="col-12 col-lg-9">
@@ -277,7 +277,7 @@ render(){
                  </div>
                </div>
               </li>
-              <li className="list-group-item mb-3" style={{fontSize:"18px",fontWeight:"400"}}>
+              <li className="list-group-item mb-3" data-aos="fade-up-left" data-aos-duration="2000" style={{fontSize:"18px",fontWeight:"400"}}>
                <div className="row" >
                  <div className="col-12 col-lg-9">
                  <p style={{fontSize:"22px",fontWeight:"700"}}>Technial Team Member,<br></br> Directorate of Student Affairs SRM.</p>
@@ -303,7 +303,7 @@ render(){
                <h1 className="heading" style={{color:"#393a3b",fontSize:"50px"}}><span style={{color:"#16175e"}}>Ed</span>ucati<span style={{color:"#16175e"}}>on</span></h1>
             </div>
             <div className="row" style={{fontSize:"18px",fontWeight:"400"}}>
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6" data-aos="fade-right" data-aos-duration="2000">
               <p style={{fontSize:"22px",fontWeight:"500"}}><span style={{fontWeight:"700"}}>Bachelor of Technology</span><br></br><div><span className="lead">2018 - 2022</span></div>
               SRM IST Kattankulathur, Tamilnadu.</p>
             
@@ -312,7 +312,7 @@ render(){
                 <li>CGPA - 9.5</li>
               </ul>
               </div>
-              <div className="col-12 col-lg-6">
+              <div className="col-12 col-lg-6" data-aos="fade-left" data-aos-duration="2000">
               <p style={{fontSize:"22px",fontWeight:"500"}}><span style={{fontWeight:"700"}}>Senior Secondary School Certification</span><br></br> <div><span className="lead">2011 - 2018</span></div>
               Rabindranath World School Gurgaon, Haryana.</p>
              
@@ -324,8 +324,8 @@ render(){
             </div>
        </section>
        <hr></hr>
-       <section className="mt-5 mx-4 card px-5 py-3" id="contact">
-            <div className=" mb-5">
+       <section className="mt-5 mx-4 card px-5 py-3" id="contact" data-aos="flip-left" data-aos-duration="1500">
+            <div className="mb-5">
                <h1 className="heading text-center" style={{color:"#393a3b",fontSize:"50px"}}><span style={{color:"#16175e"}}>R</span>each O<span style={{color:"#16175e"}}>ut</span></h1>
             </div>
             <form onSubmit={this.handleSubmit} style={{fontSize:"20px",fontWeight:"400"}}>
@@ -346,7 +346,7 @@ render(){
                <div className="text-center mt-5">
               {this.state.visible?
                <button className="hvr-pulse-grow" type="submit" style={{border:"dashed",background:"none",borderColor:"grey",borderRadius:"30px"}}><span className="px-5 py-3"><img src="data:image/png;base64,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" className="mr-2" alt="send" height="30px" width="30px"></img>Send</span></button>
-              :<p>
+              :<p data-aos="zoom-out" data-aos-duration="4000">
                Your Message has been sent!!<br></br>
                I will get back to you as soon as I see your message. 
               </p>}
