@@ -126,7 +126,7 @@ render(){
                   <span style={{color:"#16175e"}}>Devansh</span> <span style={{color:"#393a3b"}}>Goswami</span>
                 </h1>
                 <br></br>
-                <p style={{fontSize:"22px",fontWeight:"400"}}>
+                <p style={{fontSize:"20px",fontWeight:"400"}}>
                   Hi, I am a Web/Mobile Application Developer {'&'} a UI/UX Designer.<br/>
                   <span>I use my expertise in both design and development to build beautifuIll stuff.<br/>
                    </span>
