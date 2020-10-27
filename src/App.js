@@ -128,7 +128,7 @@ render(){
                 <br></br>
                 <p style={{fontSize:"20px",fontWeight:"400"}}>
                   Hi, I am a Web/Mobile Application Developer {'&'} a UI/UX Designer.<br/>
-                  <span>I use my expertise in both design and development to build beautifuIll stuff.<br/>
+                  <span>I use my expertise in both design and development to build beautifull stuff.<br/>
                    </span>
                 </p>
                 <div className="mt-5">
