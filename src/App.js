@@ -111,7 +111,7 @@ render(){
         <a href="https://www.instagram.com/_devaaaaaaansh_/" target = "_blank" rel = "noopener noreferrer" style={{textDecoration:"none"}} ><i className="fa fa-instagram hvr-float"></i></a>
      </div>
 
-     <div className="container"style={{marginTop:"100px"}}>
+     <div className="container"style={{marginTop:"60px"}}>
        <div className="jumbotron mb-3 mx-2" style={{background:'none'}}>
            <div className="row">
            <div className="col-12 col-lg-4 d-block d-lg-none">
