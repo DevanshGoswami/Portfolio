@@ -217,7 +217,7 @@ render(){
                 </p>
                  </div>
                  <div className="col-12 col-lg-3 text-center my-3 ">
-                    <img src="http://www.omnipresenttech.com/img/logo.png" height="50" width="250" alt="logo_ccsc"></img>
+                    <img src="https://media-exp1.licdn.com/dms/image/C560BAQGrp78aMQkkhg/company-logo_200_200/0?e=2159024400&v=beta&t=c2VFTUHDKvKp7LGApLYrOYlGNmQRxtP2yxBW1Yu35N8" height="250" width="250" alt="logo_ccsc"></img>
                  </div>
                </div>
               </li>
