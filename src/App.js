@@ -324,7 +324,7 @@ render(){
             </div>
        </section>
        <hr></hr>
-       <section className="mt-4 mx-4 card px-5 py-5" id="contact">
+       <section className="mt-5 mx-4 card px-5 py-3" id="contact">
             <div className=" mb-5">
                <h1 className="heading text-center" style={{color:"#393a3b",fontSize:"50px"}}><span style={{color:"#16175e"}}>R</span>each O<span style={{color:"#16175e"}}>ut</span></h1>
             </div>
