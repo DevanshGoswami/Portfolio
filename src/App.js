@@ -9,13 +9,7 @@ import './hover.css';
 import firebase from 'firebase';
 
 var firebaseConfig = {
-  apiKey: "AIzaSyD26_LJZR3vC9ymVUhfNizDi_EgFS05l18",
-  authDomain: "contactportfolio-8f3bc.firebaseapp.com",
-  databaseURL: "https://contactportfolio-8f3bc.firebaseio.com",
-  projectId: "contactportfolio-8f3bc",
-  storageBucket: "contactportfolio-8f3bc.appspot.com",
-  messagingSenderId: "214999606193",
-  appId: "1:214999606193:web:51ee4c076707d107dc1390"
+  
 };
 
 if (!firebase.apps.length) {
